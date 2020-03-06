@@ -17,6 +17,17 @@ namespace WordCoutner.Tests
       newCounter.Counter("Hello.", "This is a test.");
       // Assert //
       Assert.AreEqual(typeof(RepeatCounter), newCounter.GetType()); 
-    }    
+    }
+
+    [TestMethod]
+    public void RepeatCounter_AcquireUserInput_String()
+    {
+      // Arrange //
+      RepeatCounter newCounter = new RepeatCounter();
+      // Act //
+      string theirInput = newCounter.AcquireUserWord("word");
+      // Assert //
+      Assert.AreEqual("word", theirInput);
+    }
   }
 }
