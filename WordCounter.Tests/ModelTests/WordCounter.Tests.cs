@@ -20,7 +20,7 @@ namespace WordCoutner.Tests
     }
 
     [TestMethod]
-    public void RepeatCounter_AcquireUserInput_String()
+    public void AquireUserWord_RetrieveUserWord_String()
     {
       // Arrange //
       RepeatCounter newCounter = new RepeatCounter();
@@ -28,6 +28,17 @@ namespace WordCoutner.Tests
       string theirInput = newCounter.AcquireUserWord("word");
       // Assert //
       Assert.AreEqual("word", theirInput);
+    }
+
+    [TestMethod]
+    public void AquireUserWord_RetrieveUserSentence_String()
+    {
+      // Arrange //
+      RepeatCounter newCounter = new RepeatCounter();
+      // Act //
+      string theirInput = newCounter.AcquireUserSentence("This is a test sentence.");
+      // Assert //
+      Assert.AreEqual("This is a test sentence.", theirInput);
     }
   }
 }
