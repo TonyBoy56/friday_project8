@@ -19,5 +19,11 @@ namespace WordCounter.Models
       string theirInput = inputtedWord;
       return theirInput;
     }
+
+    public string AcquireUserSentence(string inputtedSentence)
+    {
+      string theirInput = inputtedSentence;
+      return theirInput;
+    }
   }
 } 
