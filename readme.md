@@ -18,6 +18,9 @@ _This is a console program that gathers both a word and a sentence input from a 
     * "This": 3
     * "a": 2
 
+* Test Method that tests for an object of the 'RepeatCounter' class
+  * Input: "Hello." "This is a test sentence."
+  * Output: Test failure, or test success.
 
 ## Setup/Installation Requirements
 
