@@ -6,12 +6,18 @@
 
 ## Description
 
-_[insert description here]_
+_This is a console program that gathers both a word and a sentence input from a user. The program will then check for how frequently the word appears throughout the inputted sentence, and will check for FULL word matches only._
 
 
 ## SPEC Sheet
 
-* [insert specs here]
+* The user is prompted for a setence input
+  * Input: "This is a sentence. This sentence has multiple occurences of a few particular words. This program will find them."
+  * Output: Word Occurences
+    * "Sentence": 2
+    * "This": 3
+    * "a": 2
+
 
 ## Setup/Installation Requirements
 
