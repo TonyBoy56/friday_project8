@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using WordCounter.Models;
 
-namespace WordCoutner.Tests
+namespace WordCounter.Tests
 {
   [TestClass]
   public class WordTests
@@ -39,6 +39,17 @@ namespace WordCoutner.Tests
       string theirInput = newCounter.AcquireUserSentence("This is a test sentence.");
       // Assert //
       Assert.AreEqual("This is a test sentence.", theirInput);
+    }
+
+    [TestMethod]
+    public void TrackIterable_FindNumberOfRepeats_Three()
+    {
+      // Arrange //
+      RepeatCounter newCounter = new RepeatCounter();
+      // Act //
+      string tryThis = newCounter.TrackIterable("the", "the the");
+      // Assert //
+      Assert.AreEqual(2, newCounter.TrackIterable());
     }
   }
 }
