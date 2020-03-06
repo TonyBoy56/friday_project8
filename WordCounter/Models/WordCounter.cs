@@ -25,5 +25,21 @@ namespace WordCounter.Models
       string theirInput = inputtedSentence;
       return theirInput;
     }
+
+    public int TrackIterable()
+    {
+      string theirActualWord = this.TheirWord;
+      string[] sentenceArray = this.TheirSentence.Split(' ');
+      int countTheWord = 0;
+      
+      foreach (string userWord in sentenceArray)
+      {
+        if (theirActualWord == userWord)
+        {
+          countTheWord ++;
+        }
+      }
+      return countTheWord;
+    }
   }
 } 
