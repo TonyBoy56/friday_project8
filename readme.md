@@ -9,7 +9,7 @@
 _This is a console program that gathers both a word and a sentence input from a user. The program will then check for how frequently the word appears throughout the inputted sentence, and will check for FULL word matches only._
 
 
-## SPEC Sheet
+## Spec Sheet
 
 * The user is prompted for a setence input
   * Input: "This is a sentence. This sentence has multiple occurences of a few particular words. This program will find them."
@@ -18,6 +18,8 @@ _This is a console program that gathers both a word and a sentence input from a 
     * "This": 3
     * "a": 2
 
+### Test-Specs
+
 * 1. Test Method that tests for an object of the 'RepeatCounter' class
   * Input: "Hello." "This is a test sentence."
   * Output: Test failure, or test success.
@@ -25,6 +27,11 @@ _This is a console program that gathers both a word and a sentence input from a 
 * 2. Test Method that tests for passing a user's word to the 'AcqureUserWord' method.
   * Input: "word".
   * Test failure, or test success.
+
+* 3. Test Method that tests for passing a user's sentence to the 'AcqureUserSentence' method.
+  * Input: "This is a test sentence.".
+  * Test failure, or test success.
+
 
 ## Setup/Installation Requirements
 
