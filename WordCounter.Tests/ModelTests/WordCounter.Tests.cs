@@ -31,7 +31,7 @@ namespace WordCoutner.Tests
     }
 
     [TestMethod]
-    public void AquireUserWord_RetrieveUserSentence_String()
+    public void AquireUserSentence_RetrieveUserSentence_String()
     {
       // Arrange //
       RepeatCounter newCounter = new RepeatCounter();
