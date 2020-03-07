@@ -16,7 +16,7 @@ _This is a console program that gathers both a word and a sentence input from a 
   * Output: User is prompted for a sentence input.
 
 * The user is prompted for a sentnence input
-  * Input: "This is a sentence. This sentence has multiple occurences of a few particular words. This program will find them."
+  * Input: "the the the."
   * Output: Number of inputted-Word occurences.
 
 
