@@ -26,10 +26,10 @@ namespace WordCounter.Models
       return theirInput;
     }
 
-    public int TrackIterable()
+    public int TrackIterable(string inputtedWord, string inputtedSentence)
     {
-      string theirActualWord = this.TheirWord;
-      string[] sentenceArray = this.TheirSentence.Split(' ');
+      string theirActualWord = inputtedWord;
+      string[] sentenceArray = inputtedSentence.Split(' ');
       int countTheWord = 0;
       
       foreach (string userWord in sentenceArray)
