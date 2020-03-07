@@ -17,7 +17,7 @@ _This is a console program that gathers both a word and a sentence input from a 
 
 * The user is prompted for a sentnence input
   * Input: "the the the."
-  * Output: Number of inputted-Word occurences.
+  * Output: Number of inputted-Word occurences [3].
 
 
 ### Test-Specs
