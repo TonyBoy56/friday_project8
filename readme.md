@@ -11,7 +11,7 @@ _This is a console program that gathers both a word and a sentence input from a 
 
 ## Spec Sheet
 
-* The user is prompted for a setence input
+* The user is prompted for a setnence input
   * Input: "This is a sentence. This sentence has multiple occurences of a few particular words. This program will find them."
   * Output: Word Occurences
     * "Sentence": 2
@@ -35,10 +35,11 @@ _This is a console program that gathers both a word and a sentence input from a 
 
 ## Setup/Installation Requirements
 
-### INCLUDE INSTRUCTIONS TO USE WEBPACK'S SERVER AND API KEY
 * Clone this repo by selecting the "clone or download" button. This will allow you to copy the repo's link.
 * While on the command line in your terminal, enter "git clone" followed by the copied url.
-* Enter "ls" to show a list of files and documents. One of them will be labeled "friday_project8". Use "cd" followed by the project directory name to navigate there. 
+* Enter "ls" to show a list of files and documents. One of them will be labeled "WordCounter.Solution". Use "cd" followed by the project directory name to navigate there. 
+* On the command-line, enter "cd WordCounter".
+* Run the program by typing "dotnet run" on the command-line.
 
 
 ## Known Bugs
