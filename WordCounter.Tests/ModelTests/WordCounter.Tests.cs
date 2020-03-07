@@ -47,9 +47,9 @@ namespace WordCounter.Tests
       // Arrange //
       RepeatCounter newCounter = new RepeatCounter();
       // Act //
-      string tryThis = newCounter.TrackIterable("the", "the the");
+      int please = newCounter.TrackIterable("the", "the the the");
       // Assert //
-      Assert.AreEqual(2, newCounter.TrackIterable());
+      Assert.AreEqual(3, please);
     }
   }
 }
