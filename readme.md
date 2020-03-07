@@ -1,4 +1,4 @@
-# _[insert project name here]_
+# _Word Counter_
 
 #### _This is a running webpage, as of 3/6/20._
 
