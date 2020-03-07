@@ -11,12 +11,14 @@ _This is a console program that gathers both a word and a sentence input from a 
 
 ## Spec Sheet
 
-* The user is prompted for a setnence input
+* The user is prompted for a word input
+  * Input: "the"
+  * Output: User is prompted for a sentence input.
+
+* The user is prompted for a sentnence input
   * Input: "This is a sentence. This sentence has multiple occurences of a few particular words. This program will find them."
-  * Output: Word Occurences
-    * "Sentence": 2
-    * "This": 3
-    * "a": 2
+  * Output: Number of inputted-Word occurences.
+
 
 ### Test-Specs
 
@@ -44,7 +46,7 @@ _This is a console program that gathers both a word and a sentence input from a 
 
 ## Known Bugs
 
-_[insert bugs here]_
+_User interface still in the works. Stay tuned for more._
 
 ## Support and contact details
 
