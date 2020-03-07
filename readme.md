@@ -46,7 +46,7 @@ _This is a console program that gathers both a word and a sentence input from a 
 
 ## Known Bugs
 
-_User interface still in the works. Stay tuned for more._
+_N/A_
 
 ## Support and contact details
 
